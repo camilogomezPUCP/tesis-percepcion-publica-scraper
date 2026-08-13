@@ -2,7 +2,7 @@
 
 Prototipo de módulo de recopilación de datos para tesis de pregrado en Ingeniería Informática, orientada al análisis de percepción pública de figuras políticas peruanas en redes sociales mediante NLP.
 
-**Asesor:** Prof. Edwin Villanueva Talavera
+**Asesor:** Prof. Edwin Villanueva Talavera  
 **Institución:** Pontificia Universidad Católica del Perú
 
 ## Alcance de este prototipo
