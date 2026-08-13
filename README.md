@@ -24,8 +24,7 @@ Este repositorio contiene un script de recopilación de datos vía PRAW (Reddit 
 - PostgreSQL / psycopg2
 
 ## Estructura
-├── scraper/ # Lógica de conexión y recolección vía PRAW  
-├── db/ # Funciones de inserción a PostgreSQL  
+├── scraper/ # Lógica de conexión y recolección vía PRAW\├── db/ # Funciones de inserción a PostgreSQL  
 ├── requirements.txt  
 └── .env.example # Variables de entorno necesarias (sin valores reales)  
 
