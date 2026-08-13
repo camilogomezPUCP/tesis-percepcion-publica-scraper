@@ -7,15 +7,11 @@ Prototipo de módulo de recopilación de datos para tesis de pregrado en Ingenie
 
 ## Alcance de este prototipo
 
-Este repositorio contiene un script de recopilación de datos vía PRAW
-(Reddit API) en modo **exclusivamente de lectura**, orientado a validar
-el repositorio estructurado (PostgreSQL) diseñado para el proyecto.
+Este repositorio contiene un script de recopilación de datos vía PRAW (Reddit API) en modo **exclusivamente de lectura**, orientado a validar el repositorio estructurado (PostgreSQL) diseñado para el proyecto.
 
 - No publica, comenta, vota ni interactúa con Reddit de ninguna forma.
-- Recolecta publicaciones y comentarios públicos que mencionan un
-  conjunto acotado de figuras políticas peruanas.
-- Almacena los datos en una base de datos PostgreSQL local, de uso
-  exclusivamente académico y privado.
+- Recolecta publicaciones y comentarios públicos que mencionan un conjunto acotado de figuras políticas peruanas.
+- Almacena los datos en una base de datos PostgreSQL local, de uso exclusivamente académico y privado.
 
 ## Estado
 
@@ -28,3 +24,12 @@ el repositorio estructurado (PostgreSQL) diseñado para el proyecto.
 - PostgreSQL / psycopg2
 
 ## Estructura
+├── scraper/ # Lógica de conexión y recolección vía PRAW
+├── db/ # Funciones de inserción a PostgreSQL
+├── requirements.txt
+└── .env.example # Variables de entorno necesarias (sin valores reales)
+
+
+## Nota
+
+Este repositorio no incluye credenciales, datos recolectados ni información personal de usuarios de Reddit.
